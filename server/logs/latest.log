@@ -231,3 +231,28 @@
 
 [05:33:21] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
+[05:38:13] [Thread-7/INFO]: UUID of player ViggYeeish411 is 5aa82f22-7b87-345e-b165-0eb14d019135
+[05:38:13] [Server thread/INFO]: ViggYeeish411[/[0:0:0:0:0:0:0:1]:49768] logged in with entity id 1332 at ([world]170.5, 71.0, 263.5)
+[05:56:00] [Server thread/INFO]: ViggYeeish411 tried to swim in lava
+[05:56:10] [Server thread/INFO]: ViggYeeish411 issued server command: /back
+[05:56:17] [Server thread/INFO]: ViggYeeish411 tried to swim in lava
+[06:01:32] [Server thread/INFO]: ViggYeeish411 issued server command: /tp
+[06:02:38] [Server thread/INFO]: ViggYeeish411 issued server command: /seed
+[06:03:14] [Server thread/INFO]: ViggYeeish411 tried to swim in lava
+[06:03:17] [Server thread/INFO]: ViggYeeish411 lost connection: Disconnected
+[06:03:17] [Server thread/INFO]: ViggYeeish411 left the game.
+[06:04:33] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:291) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:325) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:312) ~[?:?]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:79) [patched_1.8.8.jar:git-PaperSpigot-445]
